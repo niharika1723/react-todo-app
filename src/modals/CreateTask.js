@@ -23,7 +23,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
 
     return (
         <Modal isOpen={modal} toggle={toggle}>
-            <ModalHeader toggle={toggle}>Create Task</ModalHeader>
+            <ModalHeader toggle={toggle} >Create Task</ModalHeader>
                 <ModalBody>
                 <form>
                     <div className = "form-group">
